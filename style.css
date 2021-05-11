@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing: 4px;
+
+}
+.righthead {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: normal;
+   
+}
+.righthead li {
+    /* margin-left: 30px; */
+    padding: 10px 15px;
+}
+.lefthead h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px 15px;
+}
+.lefthead:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.righthead li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.backpic {
+    background-image: url(img/hamburger.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.catering {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 45px;
+    color:rgb(85,86,90);
+    letter-spacing: 4px;
+    
+}
+
+.about, .ourmenupart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 80px 230px; */
+    padding-bottom: 100px;
+    margin: 80px 230px;
+    border-bottom: 1px solid lightgray;
+    
+    
+}
+.right, .leftmenu {
+    text-align: center;
+}
+.left {
+    margin-right: 50px;
+}
+.left img, .rightmenu img{
+    height: auto;
+    object-fit: cover;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+.right .abouthead, .leftmenu .ourmenu{
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+.aboutheadtagline {
+    letter-spacing: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.aboutdetails {
+    font-size: 18px;
+    text-align: justify !important;
+    margin-bottom: 20px;
+}
+.aboutdetails .seasonal {
+    background-color: rgb(241,241,241);
+    padding: 3px 5px;
+}
+.aboutfadeddetails {
+    color: rgb(117,117,117);
+    font-size: 18px;
+    text-align: justify !important;
+}
+.bread, .honey, .waffle, .eggs, .pancakes {
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: left !important;
+}
+.breaddetails, .honeydetails, .waffledetails, .eggsdetails, .pancakesdetails {
+    font-size: 15px;
+    color: rgb(119,119,119);
+    text-align: left !important;
+    margin-bottom: 40px;
+}
+
+.contact {
+    padding-bottom: 100px;
+    margin: 80px 230px;
+}
+.contacthead {
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+.contactdetails, .addressdetails {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.address {
+    color: rgb(142,162,172);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.nameinput, .numberinput, .dateinput, .msgbox {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 16px 8px;  
+    margin-bottom: 10px; 
+}
+.msgbtn button {
+    margin-top: 30px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 12px;
+}
+.msgbtn button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.footer {
+    background-color: rgb(241,241,241);
+    text-align: center;
+    padding: 60px;
+}
+.powered {
+    font-size: 15px;
+    font-weight: normal;
+}
+.sharan {
+    text-decoration: underline;
+}
+.sharan:hover {
+    color: green;
+    cursor: pointer;
+}
